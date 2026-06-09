@@ -1,0 +1,60 @@
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+venv_*/
+env/
+
+# Data directories
+cleaned_data/
+new_iot_dataset/
+raw_sensors/
+extracted_sensors/
+zenodo_drafts/
+ARCHIVE_*/
+
+# Generated results / output directories
+FINAL_RESULTS_*/
+*_results/
+ml_results_*/
+chronos_*/
+STATISTICAL_ANALYSIS/
+experiment_logs/
+paper_figures/
+FIGURES/
+
+# Model artifacts
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.cbm
+*.npz
+
+# Archives & documents
+*.zip
+*.pdf
+
+# Environment & secrets
+.env
+.env.*
+
+# macOS junk
+.DS_Store
+._*
+**/._*
+
+# Editor directories
+.idea/
+.vscode/
+
+# Playwright
+.playwright-mcp/
+
+# Keep committed result CSVs tracked (data is ignored by directory above, not by *.csv)
+!results/

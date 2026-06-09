@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following paper."
+type: software
+title: "A Comparative Analysis of Machine Learning Models for Energy Forecasting in a Commercial Smart Building"
+authors:
+  - given-names: "Christos G."
+    family-names: "Anastasiou"
+    affiliation: "University of Western Macedonia"
+  - given-names: "Christos"
+    family-names: "Hitiris"
+    affiliation: "University of Western Macedonia"
+  - given-names: "Cleopatra"
+    family-names: "Gkola"
+    affiliation: "University of Western Macedonia"
+  - given-names: "Dimitrios J."
+    family-names: "Vergados"
+    affiliation: "University of Western Macedonia"
+  - given-names: "Dimitrios"
+    family-names: "Pliatsios"
+    affiliation: "University of Western Macedonia"
+  - given-names: "Panagiotis"
+    family-names: "Sarigiannidis"
+    affiliation: "University of Western Macedonia"
+  - given-names: "Angelos"
+    family-names: "Michalas"
+    affiliation: "University of Western Macedonia"
+year: 2026
+# NOTE: USERNAME is a placeholder. Replace it with the actual account/org
+# once the GitHub repository is created.
+repository-code: "https://github.com/USERNAME/energy-forecasting-smart-building"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Comparative Analysis of Machine Learning Models for Energy Forecasting in a Commercial Smart Building"
+  authors:
+    - given-names: "Christos G."
+      family-names: "Anastasiou"
+      affiliation: "University of Western Macedonia"
+    - given-names: "Christos"
+      family-names: "Hitiris"
+      affiliation: "University of Western Macedonia"
+    - given-names: "Cleopatra"
+      family-names: "Gkola"
+      affiliation: "University of Western Macedonia"
+    - given-names: "Dimitrios J."
+      family-names: "Vergados"
+      affiliation: "University of Western Macedonia"
+    - given-names: "Dimitrios"
+      family-names: "Pliatsios"
+      affiliation: "University of Western Macedonia"
+    - given-names: "Panagiotis"
+      family-names: "Sarigiannidis"
+      affiliation: "University of Western Macedonia"
+    - given-names: "Angelos"
+      family-names: "Michalas"
+      affiliation: "University of Western Macedonia"
+  journal: "IEEE Access"
+  year: 2026
+  notes: "To appear (under review). DOI to be added upon publication."

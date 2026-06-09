@@ -1,0 +1,18 @@
+# Python 3.13. TimesFM omitted (requires Python <3.12).
+accelerate==1.11.0
+catboost==1.2.8
+chronos-forecasting @ git+https://github.com/amazon-science/chronos-forecasting.git@93b90b7abeb408de1845954fe6e985b31b6500a6
+huggingface-hub==0.36.0
+lightgbm==4.6.0
+matplotlib==3.10.7
+ngboost==0.5.7
+numpy==2.3.4
+pandas==2.3.3
+prophet==1.2.1
+scikit-learn==1.7.2
+scipy==1.16.2
+statsmodels==0.14.5
+tensorflow==2.18.0  # not pinned in source environment; recent release compatible with Python 3.13
+torch==2.9.0
+transformers==4.49.0
+xgboost==3.1.1
