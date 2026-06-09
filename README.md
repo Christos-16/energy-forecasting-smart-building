@@ -28,6 +28,9 @@ analysis/                        Statistical analysis and result-processing util
 cleaning/                        Data-cleaning and preprocessing routines
 results/                         Headline result CSVs (full per-model outputs are regenerable)
 
+extract_sensors.py               Extracts per-sensor time series from the raw measurements dump
+hampel_with_log.py               Hampel (MAD-based) outlier filter used by data cleaning
+
 run_upgraded_benchmark.py        Main orchestrator: runs ML + DL + foundation models (20 models)
 run_complete_benchmark.py        Full machine-learning / classical benchmark
 run_deep_learning_all.py         Deep-learning models (RNN variants, Transformer architectures)

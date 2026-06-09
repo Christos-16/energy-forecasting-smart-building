@@ -12,7 +12,9 @@ prophet==1.2.1
 scikit-learn==1.7.2
 scipy==1.16.2
 statsmodels==0.14.5
-tensorflow==2.18.0  # not pinned in source environment; recent release compatible with Python 3.13
 torch==2.9.0
 transformers==4.49.0
 xgboost==3.1.1
+
+# TensorFlow is intentionally not listed: it is an optional, guarded import used only for
+# seed reproducibility and is not required to run the pipeline.
