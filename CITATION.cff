@@ -25,9 +25,8 @@ authors:
     family-names: "Michalas"
     affiliation: "University of Western Macedonia"
 year: 2026
-# NOTE: USERNAME is a placeholder. Replace it with the actual account/org
-# once the GitHub repository is created.
-repository-code: "https://github.com/USERNAME/energy-forecasting-smart-building"
+repository-code: "https://github.com/Christos-16/energy-forecasting-smart-building"
+url: "https://github.com/Christos-16/energy-forecasting-smart-building"
 license: MIT
 preferred-citation:
   type: article
