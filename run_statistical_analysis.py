@@ -43,7 +43,7 @@ print(f"Datasets: {df['dataset'].nunique()}")
 print(f"Horizons: {df['horizon'].nunique()}")
 
 # Create dataset-horizon combinations (these are our "tasks")
-df['task'] = df['dataset'].str[:30] + '_' + df['horizon'].astype(str)
+df['task'] = df['dataset'] + '_' + df['horizon'].astype(str)
 tasks = df['task'].unique()
 models = df['model'].unique()
 
