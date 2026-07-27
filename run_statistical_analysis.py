@@ -27,7 +27,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 BASE_DIR = Path(__file__).resolve().parent
-UNIFIED_DIR = BASE_DIR / "UNIFIED_RESULTS"
+RESULTS_DIR = BASE_DIR / "results"
 OUTPUT_DIR = BASE_DIR / "STATISTICAL_ANALYSIS"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
@@ -36,7 +36,7 @@ print("STATISTICAL ANALYSIS FOR ML MODEL COMPARISON")
 print("=" * 70)
 
 # Load unified results
-df = pd.read_csv(UNIFIED_DIR / "all_results_unified.csv")
+df = pd.read_csv(RESULTS_DIR / "all_results_unified.csv")
 print(f"\nLoaded {len(df)} experimental results")
 print(f"Models: {df['model'].nunique()}")
 print(f"Datasets: {df['dataset'].nunique()}")
